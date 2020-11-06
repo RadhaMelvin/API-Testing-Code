@@ -1,0 +1,29 @@
+19:13:51.327 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+19:13:51.468 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-11-05 19:13:51.567:INFO::main: Logging initialized @578ms to org.seleniumhq.jetty9.util.log.StdErrLog
+19:13:51.985 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+19:13:52.468 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+19:13:53.110 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "name": "Test Get"
+}
+19:13:53.113 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 29274
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+19:13:57.777 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+19:13:57.834 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 686fe25a2d3c9514ea1c09a28ad9f067 (org.openqa.selenium.chrome.ChromeDriverService)
+19:13:59.148 INFO [ActiveSessions$1.onStop] - Removing session 686fe25a2d3c9514ea1c09a28ad9f067 (org.openqa.selenium.chrome.ChromeDriverService)
+19:13:59.274 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "name": "Test Post"
+}
+19:13:59.274 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 34587
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+19:14:02.858 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+19:14:02.864 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session c462ab4d8c6575f78ae5ab489ca71f20 (org.openqa.selenium.chrome.ChromeDriverService)
+19:14:03.014 INFO [ActiveSessions$1.onStop] - Removing session c462ab4d8c6575f78ae5ab489ca71f20 (org.openqa.selenium.chrome.ChromeDriverService)
